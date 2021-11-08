@@ -12,3 +12,11 @@ jobs:
       -
         name: DrupalQA
         uses: hussainweb/drupalqa-action@main
+        id: drupalqa
+        with:
+          checks: |
+            phpcs:
+              standard: phpcs.xml.dist
+            phpmd:
+              ruleset: phpmd.xml
+            phplint: {}
