@@ -15,8 +15,8 @@ jobs:
         id: drupalqa
         with:
           checks: |
+            phplint: {}
             phpcs:
               standard: phpcs.xml.dist
             phpmd:
               ruleset: phpmd.xml
-            phplint: {}
