@@ -20,3 +20,4 @@ jobs:
               standard: phpcs.xml.dist
             phpmd:
               ruleset: phpmd.xml
+              suffixes: php
