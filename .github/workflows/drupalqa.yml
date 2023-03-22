@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@v3
       -
         name: DrupalQA
-        uses: hussainweb/drupalqa-action@main
+        uses: hussainweb/drupalqa-action@typescript
         id: drupalqa
         with:
           checks: |
